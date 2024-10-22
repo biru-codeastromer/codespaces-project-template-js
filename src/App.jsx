@@ -24,17 +24,21 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  name: "Birajit Saikia",
+  title: "Aspiring Web Developer",
+  email: "birajitsaikia@gmail.com",
+  gitHub: "biru-codeastromer",
+  instagram: "birajit.saikia",
+  linkedIn: "birajit-saikia-08125030a",
+  medium: "birajitsaikia",
+  hackerrank: "birajitsaikia",
+  codechef: "csk_biru_ai"
 };
-
+const gitHubUrl = `https://github.com/${siteProps.gitHub}`;
+const instagramUrl = `https://www.instagram.com/${siteProps.instagram}`;
+const linkedInUrl = `https://www.linkedin.com/in/${siteProps.linkedIn}`;
+const hackerRankUrl = `https://www.hackerrank.com/${siteProps.hackerrank}`;
+const codeChefUrl = `https://www.codechef.com/users/${siteProps.codechef}`;
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 

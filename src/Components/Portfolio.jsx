@@ -31,28 +31,19 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Telegram Bot for Personal Assistance",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      " Developed a Telegram bot to serve as a personal assistant, facilitating seamless task management and providing quick access to essential information. The bot features commands for setting reminders, managing to-do lists, and retrieving news updates. Leveraged Python and the python-telegram-bot library for the bot's development, ensuring smooth interactions with users. Deployed the bot on PythonAnywhere for 24/7 availability, receiving positive feedback for its intuitive design and user-friendly interface.Technologies Used: Python, python-telegram-bot, PythonAnywhere, APIs",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Cricket shop website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Designed and developed a fully functional e-commerce website for a cricket shop, enabling users to browse and purchase cricket equipment online. The website features user authentication, product categorization, and a shopping cart functionality. Implemented a responsive design using HTML, CSS, and JavaScript to ensure compatibility across devices. Integrated payment processing using Stripe API, allowing secure transactions. The project improved my skills in full-stack development and provided insights into user experience design and online marketing strategies.Technologies Used: HTML, CSS, JavaScript, Node.js, Express, MongoDB, Stripe API",
   },
   {
-    title: "My Resume Site",
+    title: "My Personal Portfolio Website",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a personal portfolio website to showcase my projects, skills, and achievements. The website includes sections for my bio, project highlights, and contact information, all presented in a visually appealing and user-friendly format. Used React for the front end, ensuring smooth navigation and responsiveness. Implemented SEO best practices to improve visibility in search engines. This project served as a platform for potential employers to evaluate my work and skill set, leading to increased interest in my internship applications.Technologies Used: React, HTML, CSS, JavaScript",
   },
 ];
 

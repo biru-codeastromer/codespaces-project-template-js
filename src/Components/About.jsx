@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/1729540283683.webp";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "my own background doing coding in mac";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hello! I'm Birajit Saikia, a first-year B.Tech CSE (AI & ML) student at Newton School of Technology, Pune. I am passionate about full-stack development and web development. Currently, I am deepening my knowledge of Node.js and React.js to build scalable and dynamic web applications. With a strong inclination toward web development, I aspire to become a professional web developer.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +32,16 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Node.js",
+  "ReactJS",
+  "REST API",
+  "Python programming",
+  "C++",
+  "Data Structures and Algorithms",
+  "Bootstrap",
 ];
 
 /**
@@ -45,7 +50,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about building intelligent systems and developing innovative web and more specifically sports web. My aim is to solve real-world problems with AI-driven solutions.";
 
 const About = () => {
   return (

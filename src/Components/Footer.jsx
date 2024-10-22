@@ -10,14 +10,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import devDotToIcon from "../images/socials/devdotto.svg";
-import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
-import twitterIcon from "../images/socials/twitter.svg";
-import youTubeIcon from "../images/socials/youtube.svg";
+import hackerrankIcon from "../images/socials/hackerrank-svgrepo-com.svg";
+import codechefIcon from "../images/socials/codechef-svgrepo-com.svg";
+
 
 /**
  * 💡 Learning resources
@@ -28,16 +27,15 @@ import youTubeIcon from "../images/socials/youtube.svg";
 
 const Footer = (props) => {
   const {
-    devDotTo,
     email,
     gitHub,
     instagram,
     linkedIn,
     medium,
+    hackerrank,
+    codechef,
     name,
     primaryColor,
-    twitter,
-    youTube,
   } = props;
 
   return (
@@ -65,11 +63,7 @@ const Footer = (props) => {
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
-        {devDotTo && (
-          <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
-          </a>
-        )}
+
         {gitHub && (
           <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
@@ -98,18 +92,14 @@ const Footer = (props) => {
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
         )}
-        {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" className="socialIcon" />
+        {hackerRank && (
+          <a href={`https://www.hackerrank.com/${hackerRank}`} target="_blank" rel="noopener noreferrer">
+            <img src={hackerrankIcon} alt="HackerRank" className="socialIcon" />
           </a>
         )}
-        {youTube && (
-          <a
-            href={`https://www.youtube.com/c/${youTube}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
+        {codeChef && (
+          <a href={`https://www.codechef.com/users/${codeChef}`} target="_blank" rel="noopener noreferrer">
+            <img src={codechefIcon} alt="CodeChef" className="socialIcon" />
           </a>
         )}
       </div>
@@ -125,16 +115,15 @@ Footer.defaultProps = {
 };
 
 Footer.propTypes = {
-  devDotTo: PropTypes.string,
   email: PropTypes.string,
   gitHub: PropTypes.string,
   instagram: PropTypes.string,
   linkedIn: PropTypes.string,
   medium: PropTypes.string,
+  hackerRank: PropTypes.string,
+  codeChef: PropTypes.string, 
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
-  twitter: PropTypes.string,
-  youTube: PropTypes.string,
 
 };
 
