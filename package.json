@@ -1,7 +1,7 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "Birajit Saikia",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "A personal portfolio template showcasing projects and skills.",
   "source": "src/index.html",
   "homepage": "https://biru-codeastromer.github.io/codespaces-project-template-js",
   "scripts": {
@@ -15,10 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/biru-codeastromer/codespaces-project-template-js.git"
   },
-  "author": "Microsoft",
+  "author": "Birajit Saikia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/biru-codeastromer/codespaces-project-template-js/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
