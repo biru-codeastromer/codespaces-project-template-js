@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://biru-codeastromer.github.io/codespaces-project-template-js",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
+    "build-gh": "parcel build --public-url 'https://biru-codeastromer.github.io/codespaces-project-template-js'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/biru-codeastromer/codespaces-project-template-js.git"
   },
   "author": "Microsoft",
   "license": "ISC",
@@ -32,7 +32,7 @@
     "eslint-plugin-react": "^7.31.7",
     "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
-    "parcel": "^2.7.0",
+    "parcel": "^2.12.0",
     "prettier": "^2.7.1",
     "process": "^0.11.10"
   }
