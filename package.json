@@ -5,12 +5,13 @@
   "source": "src/index.html",
   "homepage": "https://biru-codeastromer.github.io/codespaces-project-template-js",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://biru-codeastromer.github.io/codespaces-project-template-js'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+  "start": "parcel",
+  "build": "parcel build",
+  "build-gh": "parcel build --public-url 'https://biru-codeastromer.github.io/codespaces-project-template-js'",
+  "predeploy": "npm run build-gh",
+  "deploy": "gh-pages -d dist"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/biru-codeastromer/codespaces-project-template-js.git"
@@ -21,6 +22,7 @@
     "url": "https://github.com/biru-codeastromer/codespaces-project-template-js/issues"
   },
   "dependencies": {
+    "picomatch": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
